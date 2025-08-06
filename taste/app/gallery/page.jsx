@@ -116,23 +116,7 @@ const Gallery = () => {
           </div>
         )}
 
-        {/* Call to Action */}
-        <div className="mt-20 text-center bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">
-            Love what you see?
-          </h2>
-          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            Let us create something special for your next celebration. Custom orders welcome!
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-red-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-              Place Custom Order
-            </button>
-            <button className="border-2 border-red-600 text-red-600 px-8 py-3 rounded-full font-semibold hover:bg-red-600 hover:text-white transition-all duration-300">
-              View Menu
-            </button>
-          </div>
-        </div>
+        
       </main>
     </div>
   );

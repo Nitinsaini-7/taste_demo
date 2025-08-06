@@ -5,6 +5,7 @@ import About from '../about/page'
 import Contact from '../contact/page'
 import Gallery from '../gallery/page'
 import ProductsPage from '../products/page'
+import Footer from '@/components/Footer'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
        <ProductsPage/>
         <Gallery/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }

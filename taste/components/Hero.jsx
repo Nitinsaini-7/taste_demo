@@ -19,7 +19,7 @@ export default function Hero() {
                 {'✨ Fresh Baked Daily ✨'}
               </div>
               
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
                 Welcome to{' '}
                 <span className="text-red-600">The Taste</span>
                 <br />
@@ -28,7 +28,7 @@ export default function Hero() {
                 </span>
               </h1>
               
-              <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0">
+              <p className="text-lg text-gray-600 mb-5 max-w-lg mx-auto lg:mx-0">
                 Indulge in our freshly baked cakes, pastries, and artisanal breads. 
                 Made with love, served with passion. Experience the perfect blend of 
                 traditional recipes and modern flavors.
@@ -44,7 +44,7 @@ export default function Hero() {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-gray-200">
+              <div className="grid grid-cols-3 gap-8 mt-10 pt-4 border-t border-gray-200">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-red-600">15+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
