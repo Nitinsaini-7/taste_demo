@@ -4,13 +4,14 @@ import React from 'react'
 import About from '../about/page'
 import Contact from '../contact/page'
 import Gallery from '../gallery/page'
+import ProductsPage from '../products/page'
 
 const Home = () => {
   return (
     <div>
         <Navbar/>
         <Hero/>
-        <About/>
+       <ProductsPage/>
         <Gallery/>
         <Contact/>
     </div>
